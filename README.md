@@ -10,6 +10,7 @@ The remaining files are example scripts used for automating server restarts with
 There is an example customBlockBehaviourConfig.xml showing how to adjust a few basic settings, and all weapons ranges.
 When the Game is updated this will reimport your changes, so is a good way to keep your settings in place.
 
+BlockConfigImport.xml is used to tweak Light block RBG values.
 
 More Files will be added in time as we change more elements of the game in our server.
 
