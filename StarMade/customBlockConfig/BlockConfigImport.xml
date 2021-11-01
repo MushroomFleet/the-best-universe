@@ -269,6 +269,65 @@
 						<LightSourceColor>0.4,0.0,0.8,0.55</LightSourceColor>
 						</Block>
 			</ChargedCircuits>
+			<Terrain>			
+						<Block icon="232" name="Ice Crystal" textureId="504, 504, 504, 504, 504, 504" type="ICE_CRYSTAL">
+						<LightSourceColor>0.0,1.0,1.0,0.6</LightSourceColor>
+						</Block>
+						<Block icon="381" name="Hattel Crystal" textureId="173, 173, 173, 173, 173, 173" type="HATTEL_CRYSTAL">
+						<LightSourceColor>1.0,1.0,0.0,0.6</LightSourceColor>
+						</Block>
+						<Block icon="383" name="Sintyr Crystal" textureId="157, 157, 157, 157, 157, 157" type="SINTYR_CRYSTAL">
+						<LightSourceColor>1.0,0.501,0.0,0.6</LightSourceColor>
+						</Block>
+						<Block icon="382" name="Mattise Crystal" textureId="141, 141, 141, 141, 141, 141" type="MATTISE_CRYSTAL">
+						<LightSourceColor>1.0,0.0,0.0,0.6</LightSourceColor>
+						</Block>
+						<Block icon="378" name="Rammet Crystal" textureId="221, 221, 221, 221, 221, 221" type="RAMMET_CRYSTAL">
+						<LightSourceColor>1.0,0.0,0.8,0.6</LightSourceColor>
+						</Block>
+						<Block icon="385" name="Varat Crystal" textureId="205, 205, 205, 205, 205, 205" type="VARAT_CRYSTAL">
+						<LightSourceColor>0.0,0.0,1.0,0.6</LightSourceColor>
+						</Block>
+						<Block icon="384" name="Bastyn Crystal" textureId="189, 189, 189, 189, 189, 189" type="BASTYN_CRYSTAL">
+						<LightSourceColor>0.0,1.0,0.0,0.6</LightSourceColor>
+						</Block>
+						<Block icon="380" name="Parseen Crystal" textureId="109, 109, 109, 109, 109, 109" type="PARSEEN_CRYSTAL">
+						<LightSourceColor>1.0,1.0,1.0,0.6</LightSourceColor>
+						</Block>
+						<Block icon="379" name="Nocx Crystal" textureId="125, 125, 125, 125, 125, 125" type="NOCX_CRYSTAL">
+						<LightSourceColor>0.4,0.0,0.8,0.6</LightSourceColor>
+						</Block>
+						<Block icon="423" name="Ice Crystal Wedge" textureId="504, 504, 504, 504, 504, 504" type="ICE_CRYSTAL_WEDGE">
+						<LightSourceColor>0.0,1.0,1.0,0.6</LightSourceColor>
+						</Block>
+						<Block icon="484" name="Hattel Crystal Wedge" textureId="173, 173, 173, 173, 173, 173" type="HATTEL_CRYSTAL_WEDGE">
+						<LightSourceColor>1.0,1.0,0.0,0.6</LightSourceColor>
+						</Block>
+						<Block icon="485" name="Sintyr Crystal Wedge" textureId="157, 157, 157, 157, 157, 157" type="SINTYR_CRYSTAL_WEDGE">
+						<LightSourceColor>1.0,0.501,0.0,0.6</LightSourceColor>
+						</Block>
+						<Block icon="486" name="Mattise Crystal Wedge" textureId="141, 141, 141, 141, 141, 141" type="MATTISE_CRYSTAL_WEDGE">
+						<LightSourceColor>1.0,0.0,0.0,0.6</LightSourceColor>
+						</Block>
+						<Block icon="481" name="Rammet Crystal Wedge" textureId="221, 221, 221, 221, 221, 221" type="RAMMET_CRYSTAL_WEDGE">
+						<LightSourceColor>1.0,0.0,0.8,0.6</LightSourceColor>
+						</Block>
+						<Block icon="482" name="Varat Crystal Wedge" textureId="205, 205, 205, 205, 205, 205" type="VARAT_CRYSTAL_WEDGE">
+						<LightSourceColor>0.0,0.0,1.0,0.6</LightSourceColor>
+						</Block>
+						<Block icon="483" name="Bastyn Crystal Wedge" textureId="189, 189, 189, 189, 189, 189" type="BASTYN_CRYSTAL_WEDGE">
+						<LightSourceColor>0.0,1.0,0.0,0.6</LightSourceColor>
+						</Block>
+						<Block icon="480" name="Parseen Crystal Wedge" textureId="109, 109, 109, 109, 109, 109" type="PARSEEN_CRYSTAL_WEDGE">
+						<LightSourceColor>1.0,1.0,1.0,0.6</LightSourceColor>
+						</Block>
+						<Block icon="479" name="Nocx Crystal Wedge" textureId="125, 125, 125, 125, 125, 125" type="NOCX_CRYSTAL_WEDGE">
+						<LightSourceColor>0.4,0.0,0.8,0.6</LightSourceColor>
+						</Block>
+						<Block icon="43" name="Lava" textureId="471, 471, 471, 471, 471, 471" type="LAVA">
+						<LightSourceColor>1.0,0.2,0.2,0.6</LightSourceColor>
+						</Block>
+				</Terrain>
 		</General>
 	</Element>
 </Config>
