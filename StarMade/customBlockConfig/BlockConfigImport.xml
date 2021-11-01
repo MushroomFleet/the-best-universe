@@ -1,0 +1,41 @@
+<Config>
+	<Element>
+		<General>
+			<Light>
+				<Cube>
+						<Block icon="35" name="White Light" textureId="64, 64, 64, 64, 64, 64" type="WHITE_LIGHT">
+							<LightSourceColor>1.0,1.0,1.0,0.75</LightSourceColor>
+						</Block>
+						<Block icon="231" name="Yellow Light" textureId="72, 72, 72, 72, 72, 72" type="YELLOW_LIGHT">
+							<LightSourceColor>1.0,1.0,0.0,0.75</LightSourceColor>
+						</Block>
+						<Block icon="427" name="Orange Light" textureId="70, 70, 70, 70, 70, 70" type="ORANGE_LIGHT_0">
+							<LightSourceColor>1.0,0.501,0.0,0.75</LightSourceColor>
+						</Block>
+						<Block icon="228" name="Red light" textureId="68, 68, 68, 68, 68, 68" type="RED_LIGHT">
+							<LightSourceColor>1.0,0.0,0.0,0.75</LightSourceColor>
+						</Block>
+						<Block icon="687" name="Pink Light" textureId="591, 591, 591, 591, 591, 591" type="PINK_LIGHT">
+							<LightSourceColor>1.0,0.0,0.8,0.75</LightSourceColor>
+						</Block>
+						<Block icon="426" name="Purple Light" textureId="78, 78, 78, 78, 78, 78" type="PURPLE_LIGHT_0">
+							<LightSourceColor>0.5,0.0,1.0,0.75</LightSourceColor>
+						</Block>
+						<Block icon="229" name="Blue Light" textureId="76, 76, 76, 76, 76, 76" type="BLUE_LIGHT">
+							<LightSourceColor>0.0,0.0,1.0,0.75</LightSourceColor>
+						</Block>
+						<Block icon="665" name="Teal Light" textureId="584, 584, 584, 584, 584, 584" type="TEAL_LIGHT">
+							<LightSourceColor>0.0,1.0,0.8,0.75</LightSourceColor>
+						</Block>
+						<Block icon="230" name="Green Light" textureId="74, 74, 74, 74, 74, 74" type="GREEN_LIGHT">
+							<LightSourceColor>0.0,1.0,0.0,0.75</LightSourceColor>
+						</Block>
+						<Block icon="428" name="Black Light" textureId="66, 66, 66, 66, 66, 66" type="BLACK_LIGHT_0">
+							<LightSourceColor>0.4,0.0,0.8,0.8</LightSourceColor>
+						</Block>
+				</Cube>
+			</Light>
+		</General>
+	</Element>
+</Config>
+              
