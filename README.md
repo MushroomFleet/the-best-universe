@@ -7,6 +7,10 @@ All are working with StarMade 0.203.105
 
 
 **Contents:** 
+
+**smedit-extra-mem.bat**
+Explains how to load more RAM into Jo Jaquinta's 2021 version of SMedit (link at the bottom)
+
 /StarMade/**ServerTemplate.cfg** 
 This is simply the server.cfg reorganised into groups for easy reading. After Exiting First run all line will jumble, this is fine.
 
@@ -47,3 +51,6 @@ More Files will be added in time as we change more elements of the game in our s
 Please also take the time to check our first two Mods for StarMade, Duckets & Flora Factory, both written by Yelby:
 https://github.com/YelbyTheCat/Starmade_mods/tree/main/Duckets
 https://github.com/YelbyTheCat/Starmade_mods/tree/main/FloraFactory
+
+Looking for SMedit 2021?
+https://github.com/jjaquinta/StarMadeTools/releases
