@@ -1,0 +1,1 @@
+java -d64 -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSIncrementalPacing -XX:ParallelGCThreads=4 -XX:+AggressiveOpts -Xms4G -Xmx56G -jar SMEdit_1.2.2021-10-19.jar
