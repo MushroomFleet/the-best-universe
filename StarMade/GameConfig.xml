@@ -153,26 +153,25 @@
 		This will also apply to spawnable blueprints 
 		use a negative value to ignore (not limit) a dimension
 	 -->
-	 
+
 	<MaxDimensionShip>
 		<X>1500</X>
 		<Y>1500</Y>
 		<Z>1500</Z>
 	</MaxDimensionShip>
-	
 	<MaxDimensionStation>
 		<X>1500</X>
 		<Y>1500</Y>
 		<Z>1500</Z>
 	</MaxDimensionStation>
-	
+
 	
 	<!-- uncomment and edit the following to have a ruleset on ship sizes 
 	(existing ships over that size become unusable) If you only need one limitation, remove the one you don't need -->
-	
+
 	<ShipLimits>
 		<Mass>-1</Mass> 
-		<Blocks>1000000</Blocks> 
+		<Blocks>1500000</Blocks> 
 	</ShipLimits>
 	<!-- 
 	<PlanetLimits>
@@ -182,7 +181,7 @@
 	-->
 	<StationLimits>
 		<Mass>-1</Mass> 
-		<Blocks>1000000</Blocks> 
+		<Blocks>1500000</Blocks> 
 	</StationLimits>
 
 	
