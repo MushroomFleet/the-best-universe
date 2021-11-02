@@ -5,6 +5,7 @@ Contains many files we have used on our servers.
 All are working with StarMade 0.203.105
 
 
+
 **Contents:** 
 /StarMade/**ServerTemplate.cfg** 
 This is simply the server.cfg reorganised into groups for easy reading. After Exiting First run all line will jumble, this is fine.
@@ -14,6 +15,8 @@ Shows how to limit ships or stations using block & dimension limits
 
 /StarMade/***.sh**
 These bash scripts are used for monitoring and scheduling restarts using Cron and Tmux.
+
+
 
 Custom Import .XML examples:
 When the Game is updated this will reimport your changes, so is a good way to keep your settings in place.
@@ -26,6 +29,8 @@ Shows how to adjust the colour and intensity of all Light Emitting blocks (norma
 
 /StarMade/customEffectConfig/**customEffectConfig.xml** 
 Shows how to improve the Mobility Chamber effect - Turn Rate
+
+
 
 Custom NPC Faction Example:
  (includes npcSpawnConfig.xml appending the lines for the new faction to the bottom)
