@@ -1,6 +1,32 @@
 <Config>
 	<Element>
 		<General>
+			<Hulls>
+				<Basic>
+					<Pink>
+						<Block icon="667" name="Pink Basic Armor" textureId="589, 589, 589, 589, 589, 589" type="PINK_HULL">
+						<ArmorValue>0.0</ArmorValue>
+						<Hitpoints>400</Hitpoints>
+						</Block>
+					</Pink>
+				</Basic>
+				<Standard>
+					<Pink>
+						<Block icon="672" name="Pink Standard Armor" textureId="588, 588, 588, 588, 588, 588" type="PINK_STANDARD_ARMOR">
+						<ArmorValue>4.4</ArmorValue>
+						<Hitpoints>300</Hitpoints>
+						</Block>
+					</Pink>
+				</Standard>
+				<Advanced>
+					<Pink>
+						<Block icon="677" name="Pink Advanced Armor" textureId="587, 587, 587, 587, 587, 587" type="PINK_ADVANCED_ARMOR">
+						<ArmorValue>15.63</ArmorValue>
+						<Hitpoints>150</Hitpoints>
+						</Block>
+					</Pink>
+				</Advanced>
+			</Hulls>
 			<Light>
 				<Cube>
 						<Block icon="35" name="White Light" textureId="64, 64, 64, 64, 64, 64" type="WHITE_LIGHT">
@@ -10,13 +36,13 @@
 							<LightSourceColor>1.0,1.0,0.0,0.85</LightSourceColor>
 						</Block>
 						<Block icon="427" name="Orange Light" textureId="70, 70, 70, 70, 70, 70" type="ORANGE_LIGHT_0">
-							<LightSourceColor>1.0,0.501,0.0,0.85</LightSourceColor>
+							<LightSourceColor>1.0,0.345,0.0,0.85</LightSourceColor>
 						</Block>
 						<Block icon="228" name="Red light" textureId="68, 68, 68, 68, 68, 68" type="RED_LIGHT">
 							<LightSourceColor>1.0,0.0,0.0,0.85</LightSourceColor>
 						</Block>
 						<Block icon="687" name="Pink Light" textureId="591, 591, 591, 591, 591, 591" type="PINK_LIGHT">
-							<LightSourceColor>1.0,0.0,0.8,0.85</LightSourceColor>
+							<LightSourceColor>1.0,0.380,0.713,0.85</LightSourceColor>
 						</Block>
 						<Block icon="426" name="Purple Light" textureId="78, 78, 78, 78, 78, 78" type="PURPLE_LIGHT_0">
 							<LightSourceColor>0.5,0.0,1.0,0.85</LightSourceColor>
@@ -52,13 +78,13 @@
 						<LightSourceColor>1.0,1.0,0.0,0.85</LightSourceColor>
 						</Block>
 						<Block icon="885" name="Orange Light 1/4" textureId="70, 70, 70, 70, 70, 70" type="ORANGE_LIGHT_1/4">
-						<LightSourceColor>1.0,0.501,0.0,0.85</LightSourceColor>
+						<LightSourceColor>1.0,0.345,0.0,0.85</LightSourceColor>
 						</Block>
 						<Block icon="886" name="Orange Light 1/2" textureId="70, 70, 70, 70, 70, 70" type="ORANGE_LIGHT_1/2">
-						<LightSourceColor>1.0,0.501,0.0,0.85</LightSourceColor>
+						<LightSourceColor>1.0,0.345,0.0,0.85</LightSourceColor>
 						</Block>
 						<Block icon="887" name="Orange Light 3/4" textureId="70, 70, 70, 70, 70, 70" type="ORANGE_LIGHT_3/4">
-						<LightSourceColor>1.0,0.501,0.0,0.85</LightSourceColor>
+						<LightSourceColor>1.0,0.345,0.0,0.85</LightSourceColor>
 						</Block>
 						<Block icon="888" name="Red light 1/4" textureId="68, 68, 68, 68, 68, 68" type="RED_LIGHT_1/4">
 						<LightSourceColor>1.0,0.0,0.0,0.85</LightSourceColor>
@@ -70,13 +96,13 @@
 						<LightSourceColor>1.0,0.0,0.0,0.85</LightSourceColor>
 						</Block>
 						<Block icon="891" name="Pink Light 1/4" textureId="591, 591, 591, 591, 591, 591" type="PINK_LIGHT_1/4">
-						<LightSourceColor>1.0,0.0,0.8,0.85</LightSourceColor>
+						<LightSourceColor>1.0,0.380,0.713,0.85</LightSourceColor>
 						</Block>
 						<Block icon="892" name="Pink Light 1/2" textureId="591, 591, 591, 591, 591, 591" type="PINK_LIGHT_1/2">
-						<LightSourceColor>1.0,0.0,0.8,0.85</LightSourceColor>
+						<LightSourceColor>1.0,0.380,0.713,0.85</LightSourceColor>
 						</Block>
 						<Block icon="893" name="Pink Light 3/4" textureId="591, 591, 591, 591, 591, 591" type="PINK_LIGHT_3/4">
-						<LightSourceColor>1.0,0.0,0.8,0.85</LightSourceColor>
+						<LightSourceColor>1.0,0.380,0.713,0.85</LightSourceColor>
 						</Block>
 						<Block icon="894" name="Purple Light 1/4" textureId="78, 78, 78, 78, 78, 78" type="PURPLE_LIGHT_1/4">
 						<LightSourceColor>1.0,0.0,0.8,0.85</LightSourceColor>
@@ -132,13 +158,13 @@
 						<LightSourceColor>1.0,1.0,0.0,0.65</LightSourceColor>
 						</Block>
 						<Block icon="432" name="Orange Rod Light" textureId="83, 83, 83, 83, 83, 83" type="ORANGE_ROD_LIGHT">
-						<LightSourceColor>1.0,0.501,0.0,0.65</LightSourceColor>
+						<LightSourceColor>1.0,0.345,0.0,0.65</LightSourceColor>
 						</Block>
 						<Block icon="431" name="Red Rod Light" textureId="82, 82, 82, 82, 82, 82" type="RED_ROD_LIGHT">
 						<LightSourceColor>1.0,0.0,0.0,0.65</LightSourceColor>
 						</Block>
 						<Block icon="688" name="Pink Light Rod" textureId="593, 593, 593, 593, 593, 593" type="PINK_LIGHT_ROD">
-						<LightSourceColor>1.0,0.0,0.8,0.65</LightSourceColor>
+						<LightSourceColor>1.0,0.380,0.713,0.65</LightSourceColor>
 						</Block>
 						<Block icon="436" name="Purple Rod Light" textureId="87, 87, 87, 87, 87, 87" type="PURPLE_ROD_LIGHT">
 						<LightSourceColor>1.0,0.0,0.8,0.65</LightSourceColor>
@@ -170,10 +196,10 @@
 						<LightSourceColor>1.0,1.0,0.0,0.75</LightSourceColor>
 						</Block>
 						<Block icon="992" name="Orange Light Bar" textureId="156, 156, 156, 156, 156, 156" type="ORANGE_LIGHT_BAR">
-						<LightSourceColor>1.0,0.501,0.0,0.75</LightSourceColor>
+						<LightSourceColor>1.0,0.345,0.0,0.75</LightSourceColor>
 						</Block>
 						<Block icon="993" name="Orange Light Corner" textureId="156, 156, 156, 156, 156, 156" type="ORANGE_LIGHT_CORNER">
-						<LightSourceColor>1.0,0.501,0.0,0.75</LightSourceColor>
+						<LightSourceColor>1.0,0.345,0.0,0.75</LightSourceColor>
 						</Block>
 						<Block icon="994" name="Red Light Bar" textureId="140, 140, 140, 140, 140, 140" type="RED_LIGHT_BAR">
 						<LightSourceColor>1.0,0.0,0.0,0.75</LightSourceColor>
@@ -182,10 +208,10 @@
 						<LightSourceColor>1.0,0.0,0.0,0.75</LightSourceColor>
 						</Block>
 						<Block icon="996" name="Pink Light Bar" textureId="220, 220, 220, 220, 220, 220" type="PINK_LIGHT_BAR">
-						<LightSourceColor>1.0,0.0,0.8,0.75</LightSourceColor>
+						<LightSourceColor>1.0,0.380,0.713,0.75</LightSourceColor>
 						</Block>
 						<Block icon="997" name="Pink Light Corner" textureId="220, 220, 220, 220, 220, 220" type="PINK_LIGHT_CORNER">
-						<LightSourceColor>1.0,0.0,0.8,0.75</LightSourceColor>
+						<LightSourceColor>1.0,0.380,0.713,0.75</LightSourceColor>
 						</Block>
 						<Block icon="998" name="Purple Light Bar" textureId="220, 220, 220, 220, 220, 220" type="PURPLE_LIGHT_BAR">
 						<LightSourceColor>1.0,0.0,0.8,0.75</LightSourceColor>
@@ -224,7 +250,7 @@
 						<LightSourceColor>1.0,1.0,0.0,0.55</LightSourceColor>
 						</Block>
 						<Block icon="193" name="Sintyr Charged Circuit" textureId="145, 145, 145, 145, 145, 145" type="SINTYR_CHARGED_CIRCUIT">
-						<LightSourceColor>1.0,0.501,0.0,0.55</LightSourceColor>
+						<LightSourceColor>1.0,0.345,0.0,0.55</LightSourceColor>
 						</Block>
 						<Block icon="172" name="Mattise Charged Circuit" textureId="129, 129, 129, 129, 129, 129" type="MATTISE_CHARGED_CIRCUIT">
 						<LightSourceColor>1.0,0.0,0.0,0.55</LightSourceColor>
@@ -248,7 +274,7 @@
 						<LightSourceColor>1.0,1.0,0.0,0.55</LightSourceColor>
 						</Block>
 						<Block icon="517" name="Sintyr Charged Circuit Wedge" textureId="145, 145, 145, 145, 145, 145" type="SINTYR_CHARGED_CIRCUIT_WEDGE">
-						<LightSourceColor>1.0,0.501,0.0,0.55</LightSourceColor>
+						<LightSourceColor>1.0,0.345,0.0,0.55</LightSourceColor>
 						</Block>
 						<Block icon="518" name="Mattise Charged Circuit Wedge" textureId="129, 129, 129, 129, 129, 129" type="MATTISE_CHARGED_CIRCUIT_WEDGE">
 						<LightSourceColor>1.0,0.0,0.0,0.55</LightSourceColor>
@@ -277,7 +303,7 @@
 						<LightSourceColor>1.0,1.0,0.0,0.6</LightSourceColor>
 						</Block>
 						<Block icon="383" name="Sintyr Crystal" textureId="157, 157, 157, 157, 157, 157" type="SINTYR_CRYSTAL">
-						<LightSourceColor>1.0,0.501,0.0,0.6</LightSourceColor>
+						<LightSourceColor>1.0,0.345,0.0,0.6</LightSourceColor>
 						</Block>
 						<Block icon="382" name="Mattise Crystal" textureId="141, 141, 141, 141, 141, 141" type="MATTISE_CRYSTAL">
 						<LightSourceColor>1.0,0.0,0.0,0.6</LightSourceColor>
@@ -304,7 +330,7 @@
 						<LightSourceColor>1.0,1.0,0.0,0.6</LightSourceColor>
 						</Block>
 						<Block icon="485" name="Sintyr Crystal Wedge" textureId="157, 157, 157, 157, 157, 157" type="SINTYR_CRYSTAL_WEDGE">
-						<LightSourceColor>1.0,0.501,0.0,0.6</LightSourceColor>
+						<LightSourceColor>1.0,0.345,0.0,0.6</LightSourceColor>
 						</Block>
 						<Block icon="486" name="Mattise Crystal Wedge" textureId="141, 141, 141, 141, 141, 141" type="MATTISE_CRYSTAL_WEDGE">
 						<LightSourceColor>1.0,0.0,0.0,0.6</LightSourceColor>
