@@ -46,6 +46,7 @@
                 <BasicValues>
                         <Distance>1.0</Distance> <!-- 1 is equal to 100% sector radius -->
 						<Speed>18.0</Speed>
+                        <ProjectileWidth>1.1</ProjectileWidth> <!-- Projectile width multiplier per block built from the weapon output-->
 						<EffectConfiguration>
                         	<Kinetic>0.5</Kinetic>
                         	<Heat>0.250</Heat>
@@ -68,6 +69,7 @@
                 <BasicValues>
                         <Distance>1.5</Distance> <!-- 1 is equal to 100% sector radius -->
 						<Speed>2.0</Speed>
+						<BombActivationTimeSec>1.5</BombActivationTimeSec>  <!--Default is 3 seconds, which essentially means the bomb will never hit and do damage. In 3s after the bomb launches on its straight trajectory, the enemy will likely have completely changed their velocity vector. If bombs could heat seek, this wouldn't be a problem... but they can't.-->
 				        <EffectConfiguration>
                         	<Kinetic>0.250</Kinetic>
                         	<Heat>0.5</Heat>
@@ -82,7 +84,7 @@
                         </Cannon>
                         <Missile>
 								<Damage style="buff" value="8"/> <!--Might be insufficient. The bomb needs A LOT of damage to go through armor. Mechanics changes might be desirable here.-->
-
+								<Distance style="set" value="1.0"/>
                         </Missile>
                         <Beam>
                                 <Distance style="set" value="2.0"/>
