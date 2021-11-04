@@ -83,7 +83,7 @@
                                 <Mode style="set" value="2" /><!-- Smart Missile -->
                         </Cannon>
                         <Missile>
-								<Damage style="buff" value="8"/> <!--Might be insufficient. The bomb needs A LOT of damage to go through armor. Mechanics changes might be desirable here.-->
+								<Damage style="buff" value="8" linear="true"/> <!--Might be insufficient. The bomb needs A LOT of damage to go through armor. Mechanics changes might be desirable here.-->
 								<Distance style="set" value="1.0"/>
                         </Missile>
                         <Beam>
