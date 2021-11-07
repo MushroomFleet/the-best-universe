@@ -42,6 +42,16 @@ Their unwillingness to work with others leaves them at a disadvantage. As a resu
             <PossiblePresets>SpaceApes<!--Possible Faction Config presets. Seperate with comma--></PossiblePresets>
             <InitialGrowth>-1<!--How many systems are initially taken--></InitialGrowth>
         </Faction>
+        <Faction>
+            <RandomSpawn>true<!--Faction will spawn in a random star system--></RandomSpawn>
+            <FixedSpawnSystem>
+                <!--If random spawn is off, set the location. Will switch to random if system is already taken-->
+            </FixedSpawnSystem>
+            <Name>FlatGalaxy<!--Name of the faction--></Name>
+            <Description>The Galaxy is Flat!<!--Description of the faction--></Description>
+            <PossiblePresets>FlatGalaxy<!--Possible Faction Config presets. Seperate with comma--></PossiblePresets>
+            <InitialGrowth>-1<!--How many systems are initially taken--></InitialGrowth>
+        </Faction>
 
     </Config>
 </NPCConfig>
