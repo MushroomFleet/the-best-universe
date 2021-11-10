@@ -38,7 +38,7 @@
 		
         <RepairBeam>
                 <BasicValues> 
-						<Distance>0.25</Distance> <!-- 1 is equal to 100% sector radius --> <!-- timeBetweenHits = 1 / (unitSize^pow)*mult -->		
+						<Distance>0.5</Distance> <!-- 1 is equal to 100% sector radius --> <!-- timeBetweenHits = 1 / (unitSize^pow)*mult -->		
                 </BasicValues>
         </RepairBeam>
 
@@ -55,10 +55,10 @@
 				</BasicValues>
                 <Combination>
                         <Cannon>
-                                <Distance style="set" value="0.5"/>
+                                <Distance style="set" value="1.0"/>
                         </Cannon>
                         <Missile>
-                                <Distance style="set" value="0.5"/>
+                                <Distance style="set" value="1.0"/>
                         </Missile>
                         <Beam>
                                 <Distance style="set" value="2.0" />
@@ -78,7 +78,7 @@
 				</BasicValues>
                 <Combination>
                         <Cannon>
-                                <Distance style="set" value="0.75"/>
+                                <Distance style="set" value="1.0"/>
                                 <Split style="buff"  value="8" />
                                 <Mode style="set" value="2" /><!-- Smart Missile -->
                         </Cannon>
@@ -103,10 +103,10 @@
 				</BasicValues>
 				<Combination>
                         <Cannon> <!-- Sustained Beam -->
-								<Distance style="set" value="0.5"/>
+								<Distance style="set" value="1.0"/>
 						</Cannon>
                         <Missile> <!-- Short-range Charge Beam -->
-								<Distance style="set" value="0.5"/>
+								<Distance style="set" value="1.0"/>
 						                        </Missile>
                         <Beam> <!-- Long-Range Pulse Beam -->
 								<Distance style="set" value="2.0"/>
