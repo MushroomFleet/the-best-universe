@@ -42,7 +42,7 @@ Custom NPC Faction Example:
 /StarMade/data/npcFactions/**SpaceApes**/   
 This addon npcFaction Pack includes a complete low tech space ape faction with all ships and stations.
 Once this is added to your server, you must run the following command to enable the new faction:
-/npc_spawn_faction "SpaceApes" "Apes can Space!" "Space Apes" 15
+/npc_spawn_faction "SpaceApes" "Apes can Space!" "SpaceApes" 15
 
 
 More Files will be added in time as we change more elements of the game in our server.
