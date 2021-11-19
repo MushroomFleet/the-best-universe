@@ -1,0 +1,167 @@
+<RuleSets version="0">
+    <RuleSet id="Drone Catcher" version="0">
+        <Rule alltrue="true" id="test" type="1" version="0">
+            <Conditions>
+                <Condition type="37" version="0">
+                    <!--SEG_IS_AI_ACTIVE-->
+                    <IsActive>true</IsActive>
+                </Condition>
+                <Condition type="35" version="0">
+                    <!--SEG_IS_IN_FLEET-->
+                </Condition>
+                <Condition type="26" version="0">
+                    <!--SEG_IS_TYPE-->
+                    <IsShip>true</IsShip>
+                    <IsDock>false</IsDock>
+                    <IsTurret>false</IsTurret>
+                    <IsStation>false</IsStation>
+                    <IsAsteroid>false</IsAsteroid>
+                    <IsPlanet>false</IsPlanet>
+                </Condition>
+                <Condition type="0" version="0">
+                    <!--SEG_CONDITION_GROUP-->
+                    <AllTrue>true</AllTrue>
+                    <Conditions>
+                        <Condition type="51" version="0">
+                            <!--SEG_SYSTEM_RELATIONSHIP-->
+                            <Own>true</Own>
+                            <Relationship>2</Relationship>
+                        </Condition>
+                    </Conditions>
+                    <Inverse>true</Inverse>
+                </Condition>
+            </Conditions>
+            <Actions>
+                <Action type="7" version="0">
+                    <!--SEG_TRACK-->
+                </Action>
+            </Actions>
+        </Rule>
+    </RuleSet>
+    <RuleSet id="Yholes" version="0">
+        <Rule alltrue="false" id="Yhole Boost Thrust" type="1" version="0">
+            <Conditions>
+                <Condition type="2" version="0">
+                    <!--SEG_TYPE_COUNT_CONDITION-->
+                    <BlockType>109</BlockType>
+                    <Blocks>0</Blocks>
+                    <MoreThan>true</MoreThan>
+                </Condition>
+            </Conditions>
+            <Actions>
+                <Action type="7" version="0">
+                    <!--SEG_TRACK-->
+                </Action>
+                <Action type="5" version="0">
+                    <!--SEG_MODIFY_THRUSTER_ACTION-->
+                    <ThrusterPercent>1.5</ThrusterPercent>
+                </Action>
+                <Action type="17" version="0">
+                    <!--SEG_THRUSTER_EXPLOSIVE-->
+                </Action>
+            </Actions>
+        </Rule>
+    </RuleSet>
+    <RuleSet id="Block Limit" version="0">
+        <Rule alltrue="false" id="Block Limit Threshold" type="1" version="0">
+            <Conditions>
+                <Condition type="3" version="0">
+                    <!--SEG_TOTAL_COUNT_CONDITION-->
+                    <Blocks>1000000</Blocks>
+                    <MoreThan>true</MoreThan>
+                </Condition>
+            </Conditions>
+            <Actions>
+                <Action type="5" version="0">
+                    <!--SEG_MODIFY_THRUSTER_ACTION-->
+                    <ThrusterPercent>0.0</ThrusterPercent>
+                </Action>
+            </Actions>
+        </Rule>
+    </RuleSet>
+    <RuleSet id="Large Entity Tracker" version="0">
+        <Rule alltrue="false" id="Block Count" type="1" version="0">
+            <Conditions>
+                <Condition type="3" version="0">
+                    <!--SEG_TOTAL_COUNT_CONDITION-->
+                    <Blocks>750000</Blocks>
+                    <MoreThan>true</MoreThan>
+                </Condition>
+            </Conditions>
+            <Actions>
+                <Action type="7" version="0">
+                    <!--SEG_TRACK-->
+                </Action>
+            </Actions>
+        </Rule>
+        <Rule alltrue="false" id="Docked Entity" type="1" version="0">
+            <Conditions>
+                <Condition type="15" version="0">
+                    <!--SEG_DOCKED_ENTITES_TOTAL-->
+                    <Entities>50</Entities>
+                    <MoreThan>true</MoreThan>
+                </Condition>
+            </Conditions>
+            <Actions>
+                <Action type="7" version="0">
+                    <!--SEG_TRACK-->
+                </Action>
+            </Actions>
+        </Rule>
+        <Rule alltrue="true" id="Too many Entity" type="1" version="0">
+            <Conditions>
+                <Condition type="37" version="0">
+                    <!--SEG_IS_AI_ACTIVE-->
+                    <IsActive>false</IsActive>
+                </Condition>
+                <Condition type="0" version="0">
+                    <!--SEG_CONDITION_GROUP-->
+                    <AllTrue>false</AllTrue>
+                    <Conditions>
+                        <Condition type="32" version="0">
+                            <!--SEG_SAME_SECTOR_CONTAINS-->
+                            <Type>0</Type>
+                            <Amount>20</Amount>
+                            <Relationship>1</Relationship>
+                            <MoreThan>true</MoreThan>
+                        </Condition>
+                        <Condition type="32" version="0">
+                            <!--SEG_SAME_SECTOR_CONTAINS-->
+                            <Type>0</Type>
+                            <Amount>20</Amount>
+                            <Relationship>0</Relationship>
+                            <MoreThan>true</MoreThan>
+                        </Condition>
+                        <Condition type="32" version="0">
+                            <!--SEG_SAME_SECTOR_CONTAINS-->
+                            <Type>0</Type>
+                            <Amount>20</Amount>
+                            <Relationship>2</Relationship>
+                            <MoreThan>true</MoreThan>
+                        </Condition>
+                    </Conditions>
+                    <Inverse>false</Inverse>
+                </Condition>
+            </Conditions>
+            <Actions>
+                <Action type="7" version="0">
+                    <!--SEG_TRACK-->
+                </Action>
+            </Actions>
+        </Rule>
+        <Rule alltrue="false" id="Salvager Groups" type="1" version="0">
+            <Conditions>
+                <Condition type="23" version="0">
+                    <!--SEG_OUTPUTS_PER_SALVAGE-->
+                    <Count>1500</Count>
+                    <MoreThan>true</MoreThan>
+                </Condition>
+            </Conditions>
+            <Actions>
+                <Action type="7" version="0">
+                    <!--SEG_TRACK-->
+                </Action>
+            </Actions>
+        </Rule>
+    </RuleSet>
+</RuleSets>
