@@ -1,0 +1,28 @@
+<Config>
+        <Group id="mobility - turn rate 1">
+        <E modtype="set" priority="-1" type="thruster_turn_rate">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+        <E modtype="add" priority="0" type="thruster_turn_rate">
+            <P name="value" type="float">
+                <value>0.250</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="mobility - turn rate 2">
+        <E modtype="add" priority="0" type="thruster_turn_rate">
+            <P name="value" type="float">
+                <value>0.250</value>
+            </P>
+        </E>
+    </Group>
+    <Group id="mobility - turn rate 3">
+        <E modtype="add" priority="0" type="thruster_turn_rate">
+            <P name="value" type="float">
+                <value>0.250</value>
+            </P>
+        </E>
+    </Group>
+</Config>
