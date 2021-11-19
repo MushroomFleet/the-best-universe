@@ -1,0 +1,88 @@
+	<Manufacturing>
+
+
+        <Block icon="1948" name="the Best Block" textureId="1948, 1948, 1948, 1948, 1948, 1948" type="CUSTOM_ID_156">
+        <Consistence>
+          <Item count="1">ALLOYED_METAL_MESH</Item>
+          <Item count="1">STANDARD_HARDENER</Item>
+          <Item count="1">BASTYN_CAPSULE</Item>
+        </Consistence>
+        <CubatomConsistence/>
+        <ArmorValue>0.0</ArmorValue>
+        <EffectArmor>
+          <Heat>0.0</Heat>
+          <Kinetic>0.0</Kinetic>
+          <EM>0.0</EM>
+        </EffectArmor>
+        <Price>325</Price>
+        <Description>A flux capacitor. -Structural Stats- $ARMOUR% Armor $HP HP</Description>
+        <BlockResourceType>2</BlockResourceType>
+        <ProducedInFactory>4</ProducedInFactory>
+        <BasicResourceFactory>0</BasicResourceFactory>
+        <FactoryBakeTime>5.0</FactoryBakeTime>
+        <Animated>false</Animated>
+        <StructureHPContribution>0</StructureHPContribution>
+        <Transparency>false</Transparency>
+        <InShop>true</InShop>
+        <Orientation>false</Orientation>
+        <BlockComputerReference>0</BlockComputerReference>
+        <Slab>0</Slab>
+        <SourceReference>0</SourceReference>
+        <GeneralChamber>false</GeneralChamber>
+        <ChamberCapacity>0.0</ChamberCapacity>
+        <ChamberRoot>0</ChamberRoot>
+        <ChamberParent>0</ChamberParent>
+        <ChamberUpgradesTo>0</ChamberUpgradesTo>
+        <ChamberPermission>0</ChamberPermission>
+        <ChamberPrerequisites>{}</ChamberPrerequisites>
+        <ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
+        <ChamberChildren>{}</ChamberChildren>
+        <ChamberAppliesTo>0</ChamberAppliesTo>
+        <ReactorHp>0</ReactorHp>
+        <ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
+        <Enterable>false</Enterable>
+        <Mass>0.1</Mass>
+        <Volume>-1.0</Volume>
+        <Hitpoints>100</Hitpoints>
+        <Placable>true</Placable>
+        <InRecipe>true</InRecipe>
+        <CanActivate>false</CanActivate>
+        <IndividualSides>1</IndividualSides>
+        <SideTexturesPointToOrientation>false</SideTexturesPointToOrientation>
+        <HasActivationTexture>false</HasActivationTexture>
+        <MainCombinationController>false</MainCombinationController>
+        <SupportCombinationController>false</SupportCombinationController>
+        <EffectCombinationController>false</EffectCombinationController>
+        <Beacon>false</Beacon>
+        <Physical>true</Physical>
+        <BlockStyle>0<!--normal: A normal 6 sided block--></BlockStyle>
+        <LightSource>true</LightSource>
+	<LightSourceColor>0.949, 0.698, 0.313,0.35</LightSourceColor>
+        <Door>false</Door>
+        <SensorInput>false</SensorInput>
+        <DrawLogicConnection>false</DrawLogicConnection>
+        <Deprecated>false</Deprecated>
+        <ResourceInjection>0<!--off--></ResourceInjection>
+        <ExplosionAbsorbtion>0.0</ExplosionAbsorbtion>
+        <ExtendedTexture4x4>false</ExtendedTexture4x4>
+        <OnlyDrawnInBuildMode>false</OnlyDrawnInBuildMode>
+        <LodActivationAnimationStyle>0</LodActivationAnimationStyle>
+        <LodCollisionPhysical>true</LodCollisionPhysical>
+        <LodShapeFromFar>0</LodShapeFromFar>
+        <CollisionDefault slab="0" type="BlockType">
+          <StyleId>0</StyleId>
+        </CollisionDefault>
+        <CubeCubeCollision>true</CubeCubeCollision>
+        <UseDetailedCollisionForAstronautMode>false</UseDetailedCollisionForAstronautMode>
+        <DetailedCollisionForAstronautMode slab="0" type="BlockType">
+          <StyleId>0</StyleId>
+        </DetailedCollisionForAstronautMode>
+        <LowHpSetting>false</LowHpSetting>
+        <OldHitpoints>0</OldHitpoints>
+        <SystemBlock>false</SystemBlock>
+        <LogicBlock>false</LogicBlock>
+        <LogicSignaledByRail>false</LogicSignaledByRail>
+        <LogicBlockButton>false</LogicBlockButton>
+      </Block>
+
+	</Manufacturing>
