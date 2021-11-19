@@ -4,7 +4,7 @@
 Contains many files we have used on our servers.
 All are working with StarMade 0.203.105
 
-
+/chibimade/ is the first example of a new server design encouraging smaller designs
 
 **Contents:** 
 
