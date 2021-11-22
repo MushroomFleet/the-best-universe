@@ -51,6 +51,9 @@
 
         <Thruster>
                 <BasicValues>
+						<MulTotalThrust>5.0</MulTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
+                        <PowTotalThrust>0.98618</PowTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
+
 						<MaxThrustToMassAcceleration>10.0</MaxThrustToMassAcceleration>
 				</BasicValues>
 		</Thruster>
