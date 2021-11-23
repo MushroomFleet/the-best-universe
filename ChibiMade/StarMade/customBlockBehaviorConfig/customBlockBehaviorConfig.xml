@@ -1,0 +1,205 @@
+<BlockBehavior>
+        <General>
+                <BasicValues> 
+						<ShieldLocalCapacityPerBlock>0</ShieldLocalCapacityPerBlock>
+						<ShieldLocalRechargePerBlock>1000</ShieldLocalRechargePerBlock>
+						<ShieldLocalDefaultCapacity>0</ShieldLocalDefaultCapacity>
+						<ShieldLocalRadiusCalcStyle>LINEAR</ShieldLocalRadiusCalcStyle> <!-- LINEAR, EXP, LOG -->
+						<ShieldLocalDefaultRadius>50</ShieldLocalDefaultRadius>
+						<ShieldLocalRadiusPerRechargeBlock>0.0</ShieldLocalRadiusPerRechargeBlock>
+						<ShieldUpkeepPerSecondOfTotalCapacity>0.004</ShieldUpkeepPerSecondOfTotalCapacity>
+						<ShieldLocalPowerConsumptionPerRechargePerSecondResting>100.0</ShieldLocalPowerConsumptionPerRechargePerSecondResting>
+						<ShieldLocalPowerConsumptionPerRechargePerSecondCharging>200.0</ShieldLocalPowerConsumptionPerRechargePerSecondCharging>
+						<ShieldLocalRechargeUnderFireModeSec>300.0</ShieldLocalRechargeUnderFireModeSec> <!-- how long after being hit a recharge nerf based on shield status applies -->
+						<ShieldLocalRechargeUnderFireMinPercent>0.0</ShieldLocalRechargeUnderFireMinPercent> <!-- minimum recharge under fire -->
+                        <ShieldLocalRechargeUnderFireStartAtCharged>1.0</ShieldLocalRechargeUnderFireStartAtCharged> <!-- the nerf starts (100% recharge) at a shild this value percent -->
+                        <ShieldLocalRechargeUnderFireEndAtCharged>0.0</ShieldLocalRechargeUnderFireEndAtCharged> <!-- the nerf reaches its maximum (ShieldLocalRechargeUnderFireMinPercent) at a shild this value percent -->
+						<ShieldLocalOnZeroShieldsRechargePreventionSec>300.0</ShieldLocalOnZeroShieldsRechargePreventionSec>
+						
+						<ReactorRechargePercentPerSecond>1.0</ReactorRechargePercentPerSecond> <!-- percentage of power capacity recharged per second -->
+						<ReactorPowerCapacityMultiplier>1000.0</ReactorPowerCapacityMultiplier> <!-- multiply capacity end result with this -->
+						
+						<ReactorLevelCalcLinearBlocksNeededPerLevel>10</ReactorLevelCalcLinearBlocksNeededPerLevel> <!-- how many blocks needed per linear -->
+						
+						<ReactorStabilizerFreeMainReactorBlocks>1</ReactorStabilizerFreeMainReactorBlocks> <!-- amount of free stabilization added -->
+						<ReactorChamberBlocksPerMainReactor>1.0</ReactorChamberBlocksPerMainReactor> <!-- main-to-chamber block relation per reactor level -->
+						
+						
+						
+						<PersonalSalvageBeamBonus>3.0</PersonalSalvageBeamBonus>   <!-- bonus mult of raw resources when salvaging with handheld salvage beam (everything between whole numbers is chance (e.g. 1.25 give 25% chance of an extra raw yield) -->
+						<RailMassEnhancerFreeMass>100.0</RailMassEnhancerFreeMass>   <!-- mass that is free to place without the need of a rail mass enhancer -->
+						<!-- global modifier for shield hits (attack minus defense). -->
+                        <ShieldEffectConfiguration>
+                        	<Kinetic>0.15</Kinetic>
+                        	<Heat>0.1</Heat>
+                        	<EM>0.0</EM>
+                        </ShieldEffectConfiguration>
+                        <!-- global modifier for non-armor defense (attack minus defense). -->
+                        <BasicEffectConfiguration>
+                        	<Kinetic>0.0</Kinetic>
+                        	<Heat>0.15</Heat>
+                        	<EM>0.1</EM>
+                        </BasicEffectConfiguration>
+                        <!-- global modifier for armor defense (attack minus defense).-->
+                        <ArmorEffectConfiguration>
+                        	<Kinetic>0.1</Kinetic>
+                        	<Heat>0.0</Heat>
+                        	<EM>0.15</EM>
+                        </ArmorEffectConfiguration>						
+				</BasicValues>
+        </General>
+
+        <Thruster>
+                <BasicValues>
+						<MulTotalThrust>1.0</MulTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
+                        <PowTotalThrust>0.98618</PowTotalThrust> <!--  total = (total^PowTotalThrust)*MulTotalThrust -->
+
+						<MaxThrustToMassAcceleration>2.0</MaxThrustToMassAcceleration>
+				</BasicValues>
+		</Thruster>
+
+        <WarpGate>
+                <BasicValues>
+						<DistanceInSectors>512</DistanceInSectors> <!-- default: 4 systems -->
+                </BasicValues>
+        </WarpGate>
+
+        <SalvageBeam>
+                <BasicValues>
+                        <Distance>0.5</Distance> <!-- 1 is equal to 100% sector radius --> <!-- timeBetweenHits = 1 / (unitSize^pow)*mult -->
+                </BasicValues>
+        </SalvageBeam>
+		
+        <RepairBeam>
+                <BasicValues> 
+						<Distance>0.25</Distance> <!-- 1 is equal to 100% sector radius --> <!-- timeBetweenHits = 1 / (unitSize^pow)*mult -->		
+                </BasicValues>
+        </RepairBeam>
+
+	<Cannon>
+                <BasicValues>
+						<Damage>135.3</Damage>
+                        <AdditiveDamage>500</AdditiveDamage>
+                        <Distance>1.0</Distance> <!-- 1 is equal to 100% sector radius -->
+						<Speed>18.0</Speed>
+                        <ProjectileWidth>1.1</ProjectileWidth> <!-- Projectile width multiplier per block built from the weapon output-->
+						<EffectConfiguration>
+                        	<Kinetic>0.5</Kinetic>
+                        	<Heat>0.250</Heat>
+                        	<EM>0.250</EM>
+                        </EffectConfiguration>
+				</BasicValues>
+                <Combination>
+                        <Cannon>
+								<Damage style="nerf" value="6.53"/>
+                                <Distance style="set" value="1.0"/>
+                        </Cannon>
+                        <Missile>
+								<Damage style="buff" value ="8.51"/>
+                                <Distance style="set" value="1.0"/>
+                        </Missile>
+                        <Beam>
+								<Damage style="buff" value="6.39" /> <!-- 1 + 36.5 = 600 damage -->
+                                <Distance style="set" value="2.0" />
+                        </Beam>
+                </Combination>
+    </Cannon>
+    <Missile>
+                <BasicValues>
+						<Damage>828.2</Damage>
+                        <AdditiveDamage>500</AdditiveDamage>
+                        <Distance>1.5</Distance> <!-- 1 is equal to 100% sector radius -->
+						<Speed>2.0</Speed>
+						<MissileHPCalcStyle>EXP</MissileHPCalcStyle> <!-- LINEAR, EXP, LOG -->
+						<MissileHPExp>1.0</MissileHPExp>
+                        <MissileHPExpMult>1</MissileHPExpMult>
+						<BombActivationTimeSec>1.5</BombActivationTimeSec>  <!--Default is 3 seconds, which essentially means the bomb will never hit and do damage. In 3s after the bomb launches on its straight trajectory, the enemy will likely have completely changed their velocity vector. If bombs could heat seek, this wouldn't be a problem... but they can't.-->
+				        <EffectConfiguration>
+                        	<Kinetic>0.250</Kinetic>
+                        	<Heat>0.5</Heat>
+                        	<EM>0.250</EM>
+                        </EffectConfiguration>
+				</BasicValues>
+                <Combination>
+                        <Cannon>
+								<Damage style="buff" value="0.63"/>
+                                <Distance style="set" value="1.0"/>
+                                <Split style="buff"  value="8" />
+                                <Mode style="set" value="2" /><!-- Smart Missile -->
+								<PowerConsumption style="buff" linear="true" value="10.0"/>
+                        </Cannon>
+                        <Missile>
+								<Damage style="buff" value="8"/> <!--Might be insufficient. The bomb needs A LOT of damage to go through armor. Mechanics changes might be desirable here.-->
+								<Distance style="set" value="1.0"/>
+								<PowerConsumption style="buff" linear="true" value="10.0"/>
+                        </Missile>
+                        <Beam>
+								<Damage style="buff" value="0.21"/>
+                                <Distance style="set" value="2.0"/>
+								<PowerConsumption style="buff" linear="true" value="10.0"/>
+                        </Beam>
+               </Combination>
+    </Missile>
+	<DamageBeam>
+                <BasicValues>
+						<DamagePerHit>37.9</DamagePerHit>
+                        <AdditiveDamage>500</AdditiveDamage>
+						<Distance>1.0</Distance> <!-- 1 is equal to 100% sector radius, reduced range versus other weapons to compensate for beams instant travel time -->
+                        <PossibleZoom>0.25</PossibleZoom> <!-- value > 0 enables zoom for the weapon. value also determines max magnification --> <!--Lower is better.-->
+                        <EffectConfiguration>
+                        	<Kinetic>0.250</Kinetic>
+                        	<Heat>0.250</Heat>
+                        	<EM>0.5</EM>
+                        </EffectConfiguration>
+				</BasicValues>
+				<Combination>
+                        <Cannon> <!-- Sustained Beam -->
+								<HitSpeed style="skip"/> <!-- 0.2 tick rate-->
+								<AdditiveDamage style="skip"/>
+								<Distance style="set" value="1.0"/>
+								<PowerPerHit style="nerf" value="13.1"/> <!-- 5 - This is the damage per hit -->
+						</Cannon>
+                        <Missile> <!-- Short-range Charge Beam -->
+								<HitSpeed style="skip"/> <!-- 0.02 tick rate-->
+								<AdditiveDamage style="set" value="100"/>
+								<Distance style="set" value="1.0"/>
+								<PowerPerHit style="buff" value="21.7"/> <!-- linear is needed here -->
+						                        </Missile>
+                        <Beam> <!-- Long-Range Pulse Beam -->
+								<HitSpeed style="skip"/> <!-- 0.02 tick rate-->
+								<AdditiveDamage style="skip"/>
+								<Distance style="set" value="2.0"/>
+								<PowerPerHit style="buff" value="36.2"/>
+						</Beam>
+                </Combination>
+        </DamageBeam>
+		
+	    <EM>
+            <BasicValues>  
+                <EffectConfiguration>
+                    <Kinetic>-0.125</Kinetic>
+                    <Heat>-0.125</Heat>
+                    <EM>0.250</EM>
+                </EffectConfiguration>
+            </BasicValues>
+        </EM>
+        <Heat>
+            <BasicValues>  
+                <EffectConfiguration>
+                    <Kinetic>-0.125</Kinetic>
+                    <Heat>0.250</Heat>
+                    <EM>-0.125</EM>
+                </EffectConfiguration>
+            </BasicValues>
+        </Heat>
+        <Kinetic>
+            <BasicValues>  
+                <EffectConfiguration>
+                    <Kinetic>0.250</Kinetic>
+                    <Heat>-0.125</Heat>
+                    <EM>-0.125</EM>
+                </EffectConfiguration>
+            </BasicValues>
+        </Kinetic>
+	
+</BlockBehavior>
