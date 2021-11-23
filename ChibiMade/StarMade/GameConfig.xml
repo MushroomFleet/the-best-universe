@@ -204,9 +204,9 @@
 	 -->
 
 	<MaxDimensionShip>
-		<X>50</X>
-		<Y>50</Y>
-		<Z>50</Z>
+		<X>32</X>
+		<Y>32</Y>
+		<Z>32</Z>
 	</MaxDimensionShip>
 	<MaxDimensionStation>
 		<X>100</X>
@@ -220,7 +220,7 @@
 
 	<ShipLimits>
 		<Mass>-1</Mass> 
-		<Blocks>62500</Blocks> 
+		<Blocks>16384</Blocks> 
 	</ShipLimits>
 	<!-- 
 	<PlanetLimits>
